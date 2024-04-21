@@ -1,0 +1,1 @@
+# highcharts-react-typescript-demo
