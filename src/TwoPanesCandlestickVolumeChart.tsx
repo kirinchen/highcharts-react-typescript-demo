@@ -17,10 +17,6 @@ const TwoPanesCandlestickVolumeChart: React.FC = () => {
             
             const ohlcData: OhlcTuple[] = [];
             const volumeData: VolumeTuple[] = [];
-            const groupingUnits: [string, number[]][] = [
-                ['week', [1]],
-                ['month', [1, 2, 3, 4, 6]]
-            ];
 
             data.forEach(item => {
                 if (item.length >= 6) { // Ensures there is enough data
